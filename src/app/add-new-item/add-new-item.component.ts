@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ValidatorService } from '../validator.service'
+import { ValidatorService } from '../validator/validator.service'
 
 @Component({
   selector: 'app-add-new',

@@ -4,6 +4,20 @@
   max-width: 300px;
 }
 
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+mat-grid-list {
+  min-height: 70px;
+  min-width: 60px;
+}
+
+th, td {
+  min-height: 80px;
+  width: auto;
+}
+
 .m-10 {
   margin: 40px;
 }

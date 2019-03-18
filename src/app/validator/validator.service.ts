@@ -18,7 +18,6 @@ export class ValidatorService {
     constraintNameValue: new FormControl(''),
     effectiveDeadlineInfo: new FormControl('some info', Validators.required),
     relatedReferenceType: new FormControl(''),
-    //those checkboxes could work as formgroup
     PURMA: new FormControl(false),
     NNTM: new FormControl(false),
     PDB: new FormControl(false),
